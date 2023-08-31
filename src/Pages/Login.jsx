@@ -16,8 +16,14 @@ function Login() {
         </div>
         <div className="info-container">
           <div className="nav-section">
-            <section>LOG IN</section>
-            <section>SIGN UP</section>
+            <section className="login">
+              <a href="#">LOG IN</a>
+              <div></div>
+            </section>
+            <section className="signup">
+              <a href="#">SIGN UP</a>
+              <div className="hidden"></div>
+            </section>
           </div>
           <div className="input-section">
             <label htmlFor="username">Username</label>
