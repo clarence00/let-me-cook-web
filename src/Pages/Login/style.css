@@ -35,7 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5rem;
+  gap: 6rem;
 
   background-color: var(--black);
   border-radius: var(--lg) 0 0 var(--lg);
@@ -50,6 +50,7 @@ body {
     font-size: 2.5rem;
     color: var(--white);
     text-align: center;
+    line-height: 1.5;
   }
 }
 
