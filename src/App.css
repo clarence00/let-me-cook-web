@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --accent: #faa307;
+  --black: #323d3d;
+  --gray: #dddad2;
+  --white: #f2f1e6;
+  --sm: 0.5rem;
+  --md: 1rem;
+  --lg: 1.5rem;
+  --xl: 3rem;
+  --shadow: 0 8px 16px 0 rgba(50, 61, 61, 0.3);
+}
