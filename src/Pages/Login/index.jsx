@@ -1,34 +1,35 @@
 import React from "react";
-import Logo from "../../Assets/Logo.svg";
+import Style from "./style.module.css";
+
+// import assets/icons
 import FacebookLogo from "../../Assets/Facebook.svg";
 import GoogleLogo from "../../Assets/Google.svg";
 import TwitterLogo from "../../Assets/Twitter.svg";
-import "./style.css";
+
+// import custom components
+import CenterWrapper from "../../Components/Wrapper";
+import LogoContainer from "../../Components/LogoContainer";
+import InfoContainer from "../../Components/InfoContainer";
 
 function Login() {
   return (
     <>
-      <div className="wrapper">
-        <div className="logo-container">
-          <img
-            className="logo"
-            src={Logo}
-            alt="Logo"
-          />
-          <section>LOG IN TO ACCOUNT</section>
-        </div>
-        <div className="info-container">
-          <div className="nav-section">
-            <section className="login">
+      <CenterWrapper>
+        <LogoContainer>
+          <section>LOG IN AN ACCOUNT</section>
+        </LogoContainer>
+        <InfoContainer>
+          <div className={Style.nav_section}>
+            <section className={Style.login}>
               <a href="#">LOG IN</a>
               <div></div>
             </section>
-            <section className="signup">
+            <section className={Style.signup}>
               <a href="#">SIGN UP</a>
-              <div className="hidden"></div>
+              <div className={Style.hidden}></div>
             </section>
           </div>
-          <div className="input-section">
+          <div className={Style.input_section}>
             <section>
               <label htmlFor="username">Username</label>
               <input
@@ -37,7 +38,7 @@ function Login() {
               />
             </section>
             <section>
-              <label htmlFor="username">Password</label>
+              <label htmlFor="0assword">Password</label>
               <input
                 type="password"
                 id="password"
@@ -45,11 +46,11 @@ function Login() {
             </section>
             <a href="#">Forgot Password</a>
           </div>
-          <div className="btn-section">
+          <div className={Style.btn_section}>
             <button>Log In</button>
             <div></div>
           </div>
-          <div className="social-section">
+          <div className={Style.social_section}>
             <a href="#">
               <img
                 src={GoogleLogo}
@@ -69,8 +70,8 @@ function Login() {
               />
             </a>
           </div>
-        </div>
-      </div>
+        </InfoContainer>
+      </CenterWrapper>
     </>
   );
 }

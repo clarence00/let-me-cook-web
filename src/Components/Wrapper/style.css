@@ -1,0 +1,9 @@
+.wrapper {
+  width: 70vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  gap: 0.5%;
+
+  border-radius: var(--lg);
+}

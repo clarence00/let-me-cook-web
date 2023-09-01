@@ -1,43 +1,43 @@
 .bg {
-    background-color: var(--accent);
-    width: 1920px;
-    height: 1080px;
+  background-color: var(--accent);
+  width: 1920px;
+  height: 1080px;
 }
 
-    .header {
-        fill: var(--black);
-        width: 1920px;
-        height: 120px;
-        flex-shrink: 0;
+.header {
+  fill: var(--black);
+  width: 1920px;
+  height: 120px;
+  flex-shrink: 0;
 }
 
-    .fire-logo{
-        width: 80px;
-        height: 80px;
-        flex-shrink: 0;
-    }
+.fire-logo {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
 
-    .lemme {
-        color: var(--white, #F2F1E6);
-        font-family: Poppins;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        width: 324px;
-    }
+.lemme {
+  color: var(--white, #f2f1e6);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 324px;
+}
 
-    .searchbar {
-        width: 640px;
-        height: 64px;
-        flex-shrink: 0;
-        border-radius: var(--numbers-radius-md, 16px);
-        background: var(--gray, #DDDAD2);
-    }
+.searchbar {
+  width: 640px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: var(--numbers-radius-md, 16px);
+  background: var(--gray, #dddad2);
+}
 
-    .search {
-        width: var(--numbers-radius-xl, 40px);
-        height: var(--numbers-radius-xl, 40px);
-        flex-shrink: 0;
-        color: var(--black);
-    }
+.search {
+  width: var(--numbers-radius-xl, 40px);
+  height: var(--numbers-radius-xl, 40px);
+  flex-shrink: 0;
+  color: var(--black);
+}

@@ -1,0 +1,17 @@
+.info_container {
+  width: 70.5%;
+  padding: 3.5rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  background-color: var(--white);
+  border-radius: 0 var(--lg) var(--lg) 0;
+  box-shadow: var(--shadow);
+
+  & div {
+    display: flex;
+    align-self: stretch;
+  }
+}
