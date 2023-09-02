@@ -11,7 +11,11 @@ import CenterWrapper from "../../Components/Wrapper";
 import LogoContainer from "../../Components/LogoContainer";
 import InfoContainer from "../../Components/InfoContainer";
 
+import { useNavigate } from "react-router-dom";
+
 function SignUp() {
+  const navigate = useNavigate();
+
   return (
     <CenterWrapper>
       <LogoContainer>
@@ -20,11 +24,15 @@ function SignUp() {
       <InfoContainer>
         <div className={Style.nav_section}>
           <section className={Style.login}>
-            <a href="#">LOG IN</a>
+            <a
+              href=""
+              onClick={() => navigate("/login")}>
+              LOG IN
+            </a>
             <div className={Style.hidden}></div>
           </section>
           <section className={Style.signup}>
-            <a href="#">SIGN UP</a>
+            <a href="">SIGN UP</a>
             <div></div>
           </section>
         </div>
@@ -52,7 +60,7 @@ function SignUp() {
           </section>
         </div>
         <div className={Style.btn_section}>
-          <button>Sign Up</button>
+          <button onClick={() => navigate("/login")}>Sign Up</button>
           <div></div>
         </div>
         <div className={Style.social_section}>

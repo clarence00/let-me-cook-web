@@ -1,14 +1,14 @@
 import React from "react";
-import "./style.css";
+import Style from "./style.module.css";
 
 // import assets/icons
 import Logo from "../../Assets/Logo.svg";
 
 function LogoContainer({ children }) {
   return (
-    <div className="logo_container">
+    <div className={Style.logo_container}>
       <img
-        className="logo"
+        className={Style.logo}
         src={Logo}
         alt="Logo"
       />

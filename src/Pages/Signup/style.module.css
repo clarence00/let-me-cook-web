@@ -110,6 +110,7 @@ body {
     border-radius: var(--md);
     border-width: 0;
     box-shadow: var(--shadow);
+    cursor: pointer;
   }
 
   & div {

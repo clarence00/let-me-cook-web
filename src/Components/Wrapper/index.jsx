@@ -1,8 +1,8 @@
 import React from "react";
-import "./style.css";
+import Style from "./style.module.css";
 
 function CenterWrapper({ children }) {
-  return <div className="wrapper">{children}</div>;
+  return <div className={Style.wrapper}>{children}</div>;
 }
 
 export default CenterWrapper;
