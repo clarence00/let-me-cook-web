@@ -1,0 +1,10 @@
+.wrapper {
+  width: 100%;
+  padding: 2rem 0;
+  display: grid;
+  place-content: center;
+  grid-template-columns: 3% 52% 35%;
+  gap: 1rem;
+
+  background-color: var(--gray);
+}

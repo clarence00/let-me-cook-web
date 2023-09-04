@@ -1,0 +1,185 @@
+.closebtn {
+  height: 2rem;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: var(--lg);
+  box-shadow: var(--shadow);
+
+  & section {
+    padding: 0 1.25rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+  }
+}
+
+/* first div = top profile */
+.profile_section {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  & img {
+    height: 1.25rem;
+  }
+}
+
+.top_profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0.5rem;
+
+  & img {
+    height: 2.5rem;
+  }
+
+  & div {
+    & span {
+      font-size: 1.25rem;
+    }
+
+    & section {
+      padding: 0;
+      justify-content: flex-start;
+
+      color: var(--accent);
+      font-weight: 400;
+
+      & img {
+        height: 0.5rem;
+        padding-right: 0.25rem;
+      }
+
+      & span {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}
+
+/* second div = title */
+.title_section {
+  padding-left: 0.25rem;
+  padding-bottom: 0.5rem;
+
+  & section {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+/* third div = description */
+.desc_section {
+  padding-left: 0.25rem;
+  padding-bottom: 1rem;
+
+  & section {
+    color: var(--black);
+    font-size: 1rem;
+  }
+}
+
+/* fourth div = post image */
+.postpic_section {
+  padding-bottom: 0.5rem;
+
+  & section {
+    margin: 0 1.25rem;
+    background-color: var(--gray);
+    border-radius: var(--lg);
+    justify-content: center;
+  }
+
+  & img {
+    width: 100%;
+    border-radius: var(--lg);
+  }
+}
+
+/* fifth div = status */
+.status_section {
+  padding-bottom: 0.5rem;
+
+  & section {
+    padding: 0 2rem;
+    justify-content: space-around;
+  }
+
+  & button {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-width: 0;
+    cursor: pointer;
+  }
+
+  & img {
+    height: 1.75rem;
+    padding-right: 0.25rem;
+  }
+
+  & span {
+    color: var(--black);
+    font-size: 1rem;
+  }
+}
+
+/* sixth div = comment */
+.comment_section {
+  padding-bottom: 1.25rem;
+
+  & section {
+    align-items: flex-start;
+  }
+
+  & img {
+    height: 2.25rem;
+  }
+
+  & textarea {
+    width: 100%;
+    margin: 0 0.5rem;
+    margin-top: 0.25rem;
+    padding: 0.5rem;
+
+    background-color: var(--gray);
+    border-radius: var(--lg);
+    border-width: 0;
+    color: var(--black);
+    font-size: 1rem;
+    overflow-y: hidden;
+    resize: none;
+  }
+
+  & button {
+    height: 1.5rem;
+
+    background-color: unset;
+    border-width: 0;
+    cursor: pointer;
+
+    & img {
+      margin-top: 0.5rem;
+      margin-right: 0.25rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+.comment {
+  background-color: var(--white);
+  border-radius: var(--lg);
+  box-shadow: var(--shadow);
+}

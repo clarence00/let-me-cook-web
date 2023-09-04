@@ -7,7 +7,7 @@ import GoogleLogo from "../../Assets/Google.svg";
 import TwitterLogo from "../../Assets/Twitter.svg";
 
 // import custom components
-import CenterWrapper from "../../Components/Wrapper";
+import CenterWrapper from "../../Components/CenterWrapper";
 import LogoContainer from "../../Components/LogoContainer";
 import InfoContainer from "../../Components/InfoContainer";
 
@@ -17,7 +17,7 @@ function Login() {
   const navigate = useNavigate();
 
   return (
-    <>
+    <div className={Style.body}>
       <CenterWrapper>
         <LogoContainer>
           <section>LOG IN TO ACCOUNT</section>
@@ -80,7 +80,7 @@ function Login() {
           </div>
         </InfoContainer>
       </CenterWrapper>
-    </>
+    </div>
   );
 }
 

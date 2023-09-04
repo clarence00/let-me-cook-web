@@ -1,0 +1,67 @@
+.navbar {
+  width: 100%;
+  /* padding: 0.5rem 1.5rem; */
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+
+  background-color: var(--black);
+
+  :nth-child(3) {
+    gap: 1.5rem;
+  }
+}
+
+.navbar section {
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  & span {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  & input {
+    height: 2rem;
+    width: 30ch;
+    margin-right: 3rem;
+
+    background-color: var(--gray);
+    font-size: 1.25rem;
+    text-indent: 2.25rem;
+    border-radius: var(--sm);
+    border-width: 0;
+  }
+
+  & button {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: grid;
+    place-content: center;
+
+    border-radius: var(--md);
+    border-width: 0;
+    cursor: pointer;
+
+    & img {
+      height: 2rem;
+    }
+  }
+}
+
+.logo {
+  height: 2.5rem;
+}
+
+.search {
+  position: relative;
+  left: 3rem;
+  height: 1.5rem;
+}
+
+.btn_icons {
+  height: 2.5rem;
+}

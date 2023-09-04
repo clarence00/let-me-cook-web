@@ -1,7 +1,6 @@
 .wrapper {
-  width: 70vw;
-  height: 75vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: 30% 75%;
   justify-content: center;
   gap: 0.5%;
 
